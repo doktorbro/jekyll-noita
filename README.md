@@ -1,4 +1,4 @@
-jekyll-noitad-nouf
+Noitad Nouf
 ==================
 
 Jekyll template built with Zurb Foundation
