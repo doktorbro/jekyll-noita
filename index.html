@@ -16,13 +16,15 @@ title: Noitad Nouf
     <h2>Dummy Blog</h2>
 
     {% for post in site.posts %}
-      <div class="post-short">
-        <h4><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: '%F' }}</small></h4>
-        <p>{{ post.description }}</p>
-      </div>
+    <div class="post-short">
+      <h4>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <small>{{ post.date | date: '%F' }}</small>
+      </h4>
+      <p>{{ post.description }}</p>
+    </div>
     {% endfor %}
 
-    <p><em><a href="/blog/">All blog posts</a></em>&nbsp;&rarr;</p>
     <hr>
   </div>
 </div>
