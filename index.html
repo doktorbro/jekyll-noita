@@ -5,8 +5,8 @@ title: Noitad Nouf
 
 <div class="row">
   <div class="column">
-    <p>Noitad Nouf is a <a href="http://jekyllrb.com/">Jekyll</a> template built
-    with <a href="http://foundation.zurb.com/">Foundation</a> as a Git submodule.</p>
+    <h3 class="subheader">Noitad Nouf is a <a href="http://jekyllrb.com/">Jekyll</a> template built
+    with <a href="http://foundation.zurb.com/">Foundation</a> as a Git submodule.</h3>
     <hr>
   </div>
 </div>
@@ -17,7 +17,7 @@ title: Noitad Nouf
 
     {% for post in site.posts %}
       <div class="post-short">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: '%F' }}</small></h3>
+        <h4><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: '%F' }}</small></h4>
         {{ post.description | markdownify }}
       </div>
     {% endfor %}
