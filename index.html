@@ -17,7 +17,7 @@ title: Noitad Nouf
     {% for post in site.posts %}
       <div class="post-short">
         <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: '%F' }}</small></h3>
-        <p>{{ post.description | markdownify }}</p>
+        {{ post.description | markdownify }}
       </div>
       <hr>
     {% endfor %}
