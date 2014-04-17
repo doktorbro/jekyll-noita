@@ -19,7 +19,7 @@ You can now download the template as [zip](https://github.com/penibelst/jekyll-n
 
 Working from a coffee shop with two others. View my two latest photos on Flickr. Another sexy layout up for Foundation. This one recreates the side menu used on the site. Go forth and download. Not at all. Sorry dude. Great place! I go there often.
 
-Very often I find myself needing a font weight in between the available font weights. I’m a very particular man. I’m surprised you didn’t tweet: "I’m Grove, you may have heard about my combo handler". That was the best line from conference.
+Very often I find myself needing a font weight in between the available font weights. I’m a very particular man. I’m surprised you didn’t tweet: “I’m Grove, you may have heard about my combo handler”. That was the best line from conference.
 
 ## Christmasy color scheme
 
@@ -35,12 +35,10 @@ Hey, what’s the best way to get [Foundation](http://foundation.zurb.com/) on t
 
 ## Big Jekyll hoodies
 
-Well, that escalated quickly. "Better to prevent and prepare rather than repent and repair." Going down to 19 °F tomorrow in Toronto! That’s &minus;9 °C, and I can’t find my winter jacket. Hope these big Jekyll hoodies work.
+Well, that escalated quickly. “Better to prevent and prepare rather than repent and repair.” Going down to 19 °F tomorrow in Toronto! That’s &minus;9 °C, and I can’t find my winter jacket. Hope these big Jekyll hoodies work.
 
 You must *really* enjoy round the world trips, writing books and hacking on frameworks. *Interface Weekly*, now with more bad puns and a slightly tweaked format. Let me know if you prefer this or not. Pretty proud that Ontario will soon become the first province in North America to ban coal-fired power generation.
 
-I’m really digging this series. I hope you get Part 3 up soon! Diego asks: "Do you have handy the link with the playground for browser events?" Nicolas answers: "I’m looking forward to the day we can use native components to do our job, because *this* (waves hands in all directions) is bullshit."
+I’m really digging this series. I hope you get Part 3 up soon! Diego asks: “Do you have handy the link with the playground for browser events?” Nicolas answers: “I’m looking forward to the day we can use native components to do our job, because *this* (waves hands in all directions) is bullshit.”
 
 Come over next week and you can help us decorate ours. Yes, let’s do this next Friday. I wanted help in assembling it anyway.
-
-[1]: http://Foundationcss.io/layouts/
