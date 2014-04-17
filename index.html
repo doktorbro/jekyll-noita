@@ -6,6 +6,15 @@ title: Noitad Nouf
 <p>Noitad Nouf is a <a href="http://jekyllrb.com/">Jekyll</a> template built
 with <a href="http://foundation.zurb.com/">Foundation</a> as a Git submodule.</p>
 
+<h2>Dummy Blog</h2>
+
+{% for post in site.posts %}
+<div class="post-short">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date: '%F' }}</small></h3>
+  <p>{{ post.description | markdownify }}</p>
+</div>
+{% endfor %}
+
 <h2>Performance</h2>
 
 <p>Performance test are made with Web Pagetest.</p>
