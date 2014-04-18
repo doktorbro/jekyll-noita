@@ -4,10 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/components/foundation/css/normalize.css">
+  <!--<link rel="stylesheet" href="/components/foundation/css/normalize.css">-->
   <link rel="stylesheet" href="/components/foundation/css/foundation.min.css">
 </head>
 <body>
+
+  <nav class="top-bar" data-topbar id="topbar">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/">{{ site.noitadnouf.title }}</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#topbar">Menu</a></li>
+    </ul>
+    <section class="top-bar-section">
+    <ul class="right">
+      <li class="has-form">
+        <a class="small button" href="{{ site.noitadnouf.repository }}">Fork</a>
+      </li>
+    </ul>
+    </section>
+  </nav>
+
   <div class="row">
     <div class="column">
       <h1>{{ page.title }}</h1>
@@ -17,10 +34,20 @@
   {{ content }}
 
   <div class="row">
-    <div class="column">
+    <div class="small-8 columns">
       <p>© 2014 <a href="http://penibelst.de/">Anatol Broder</a>. Licensed under
       the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
     </div>
+    <div class="small-4 columns">
+      <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
+    </div>
   </div>
+
+  <script src="/components/foundation/js/vendor/jquery.js"></script>
+  <script src="/components/foundation/js/foundation/foundation.js"></script>
+  <script src="/components/foundation/js/foundation/foundation.topbar.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
