@@ -19,8 +19,8 @@
 
 Performance tests made with Web Pagetest:
 
-* [Mobile](http://www.webpagetest.org/result/140417_05_AHC/)
-* [Desktop](http://www.webpagetest.org/result/140417_E5_AGB/)
+* [Mobile](http://www.webpagetest.org/result/140419_0X_QJZ/)
+* [Desktop](http://www.webpagetest.org/result/140419_EA_QH8/)
 
 ## Validation
 
