@@ -27,4 +27,4 @@ Performance tests made with Web Pagetest:
 Noitad Nouf creates valid pages:
 
 * [Homepage](http://validator.nu/?doc=http%3A%2F%2Fnoitadnouf.penibelst.de%2F)
-* [Blog post](http://validator.nu/?doc=http%3A%2F%2Fnoitadnouf.penibelst.de%2F2014%2Fi-hate-winter%2F)
+* [Blog post](http://validator.nu/?doc=http%3A%2F%2Fnoitadnouf.penibelst.de%2Fblog%2F2014%2Fi-hate-winter%2F)
