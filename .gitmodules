@@ -1,3 +1,0 @@
-[submodule "components/foundation"]
-	path = components/foundation
-	url = https://github.com/zurb/bower-foundation.git
