@@ -46,3 +46,5 @@ You must *really* enjoy round the world trips, writing books and hacking on fram
 I’m really digging this series. I hope you get Part 3 up soon! Diego asks: “Do you have handy the link with the playground for browser events?” Nicolas answers: “I’m looking forward to the day we can use native components to do our job, because *this* (waves hands in all directions) is bullshit.”
 
 Come over next week and you can help us decorate ours. Yes, let’s do this next Friday. I wanted help in assembling it anyway.
+
+*[LAX]: Los Angeles International Airport
