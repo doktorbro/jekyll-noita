@@ -10,7 +10,7 @@ You gotta open with Hussey or come down. [The Emerging Global Web][1] presentati
 >
 > *--- [Bryan Zmijewski][2], chief instigator of Zurb*
 
-Yahoo may be interested. Message me if you need. One of my favorite debugging tricks: enough sleep. Pro tip: never call yourself an expert. That’s a word that only means something coming from others. Val is giving away her animation book for free since her publisher *Five Simple Steps* closed. I got your back, don’t worry. You mean “determination”, right? I’m a noob, I don’t even a year’s worth of experience in it. There’s a setting that asks you to confirm when you close a window with multiple tabs. World’s best chasers:
+Yahoo may be interested. Message me if you need. One of my favorite debugging tricks: enough sleep. Pro tip: never call yourself an expert. That’s a word that only means something coming from others. Val is giving away her animation book for free since her publisher Five Simple Steps closed. I got your back, don’t worry. You mean “determination”, right? I’m a noob, I don’t even a year’s worth of experience in it. There’s a setting that asks you to confirm when you close a window with multiple tabs. World’s best chasers:
 
 * Leopards
 * Soda water
