@@ -4,3 +4,5 @@ permalink: /blog/:year/:title/
 noitadnouf:
   title: Noitad Nouf
   repository: https://github.com/penibelst/jekyll-noitadnouf
+  dir: ltr
+  lang: en
