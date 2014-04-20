@@ -1,6 +1,8 @@
 markdown: kramdown
 permalink: /blog/:year/:title/
 
+layouts: ./_noitadnouf
+
 noitadnouf:
   title: Noitad Nouf
   repository: https://github.com/penibelst/jekyll-noitadnouf
