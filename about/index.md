@@ -4,7 +4,7 @@ title: About
 ---
 
 Noitad Nouf is a [Jekyll][1] theme built with the responsive
-front-end framework [Foundation][2]. The theme is fully compatible with [Github Pages][3].
+front-end framework [Foundation][2]. The theme is free and fully compatible with [Github Pages][3].
 
 ## Quick Guide
 
@@ -35,12 +35,16 @@ Screenshots made with Browserstack:
 * [Homepage](http://www.browserstack.com/screenshots/ef015b71fbc13a86d6658a8087faa6788743ca91)
 * [Blog post](http://www.browserstack.com/screenshots/e58d501fcc2eff5d1e6ff6b63dbbdbeadc944b2f)
 
-## Credits
+## Includes
 
-* Foundation © [ZURB][5]
-* Normalize © Nicolas Gallagher and Jonathan Neal
-* jQuery © jQuery Foundation
+Noitad Nouf contains free libraries:
+
+* [Foundation][2]
+* [jQuery][5]
+* [Normalize][4]
 
 [1]: http://jekyllrb.com/
 [2]: http://foundation.zurb.com/
 [3]: https://pages.github.com/
+[4]: http://necolas.github.io/normalize.css/
+[5]: http://jquery.com/
