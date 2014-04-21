@@ -6,7 +6,6 @@ layouts: ./_noitadnouf
 noitadnouf:
   title: Noitad Nouf
   repository: https://github.com/penibelst/jekyll-noitadnouf
-  dir: ltr
   lang: en
   favicons:
     - /assets/2014/04/21/favicon-152.png
