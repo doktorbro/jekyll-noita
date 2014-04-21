@@ -5,6 +5,10 @@ layouts: ./_noitadnouf
 
 noitadnouf:
   title: Noitad Nouf
+  description: Jekyll theme built with Foundation
+  author:
+    name: Anatol Broder
+    url: http://penibelst.de/
   repository: https://github.com/penibelst/jekyll-noitadnouf
   lang: en
   favicons:
