@@ -4,8 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="icon" sizes="152x152" href="/ui/noitadnouf-favicon-152.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/ui/noitadnouf-favicon-152.png">
+  {% for favicon in site.noitadnouf.favicons %}
+    {% assign size = favicon | split: '-' | last | split: '.' | first %}
+    <link rel="icon"
+      sizes="{{ size }}x{{ size }}"
+      href="{{ favicon }}">
+    <link rel="apple-touch-icon"
+      sizes="{{ size }}x{{ size }}"
+      href="{{ favicon }}">
+  {% endfor %}
   <link rel="stylesheet" href="/ui/app.css">
 </head>
 <body>
