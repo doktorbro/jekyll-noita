@@ -21,7 +21,7 @@
   <entry>
     <content type="html">{{ post.content | xml_escape }}</content>
     <title type="html">{{ post.title | xml_escape }}</title>
-    <id>{{ site.url | append: post.url }}</id>
+    <id>{{ site.url }}{{ post.url }}</id>
     <link
       rel="alternate"
       type="text/html"
