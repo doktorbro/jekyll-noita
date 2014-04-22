@@ -8,7 +8,7 @@
 {% elsif site.github.url %}
   {% assign base = site.github.url %}
 {% else %}
-  {% assign base = '/' %}
+  {% assign base = '' %}
 {% endif %}
 
   <id>{{ base }}{{ page.url }}</id>
