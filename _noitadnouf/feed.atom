@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.noitadnouf.lang }}">
-  <title>{{ site.noitadnouf.title }}</title>
-  <subtitle>{{ site.noitadnouf.description }}</subtitle>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.noita.lang }}">
+  <title>{{ site.noita.title }}</title>
+  <subtitle>{{ site.noita.description }}</subtitle>
 
-{% if site.noitadnouf.url %}
-  {% assign base = site.noitadnouf.url %}
+{% if site.noita.url %}
+  {% assign base = site.noita.url %}
 {% elsif site.github.url %}
   {% assign base = site.github.url %}
 {% else %}
@@ -13,8 +13,8 @@
 
   <id>{{ base }}{{ page.url }}</id>
   <author>
-    <name>{{ site.noitadnouf.author.name }}</name>
-    <uri>{{ site.noitadnouf.author.url }}</uri>
+    <name>{{ site.noita.author.name }}</name>
+    <uri>{{ site.noita.author.url }}</uri>
   </author>
   <link
     rel="alternate"

@@ -1,10 +1,10 @@
 <!doctype html>
-<html dir="ltr" lang="{{ site.noitadnouf.lang }}">
+<html dir="ltr" lang="{{ site.noita.lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  {% for favicon in site.noitadnouf.favicons %}
+  {% for favicon in site.noita.favicons %}
     {% assign size = favicon | split: '-' | last | split: '.' | first %}
     <link rel="icon"
       sizes="{{ size }}x{{ size }}"
@@ -14,15 +14,15 @@
       href="{{ favicon }}">
   {% endfor %}
   <link rel="alternate" href="/blog/feed.atom"
-    title="{{ site.noitadnouf.title }}">
-  <link rel="stylesheet" href="/noitadnouf/stylesheet.css">
+    title="{{ site.noita.title }}">
+  <link rel="stylesheet" href="/noita/stylesheet.css">
 </head>
 <body>
 
   <div class="top-bar" data-topbar id="topbar">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/">{{ site.noitadnouf.title }}</a></h1>
+        <h1><a href="/">{{ site.noita.title }}</a></h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#topbar">Menu</a></li>
     </ul>
@@ -35,7 +35,7 @@
         <a href="/blog/">Blog</a>
       </li>
       <li class="has-form">
-        <a class="small button" href="{{ site.noitadnouf.repository }}">Repository</a>
+        <a class="small button" href="{{ site.noita.repository }}">Repository</a>
       </li>
     </ul>
     </div>
@@ -62,6 +62,6 @@
     </div>
   </div>
 
-  <script src="/noitadnouf/javascript.js"></script>
+  <script src="/noita/javascript.js"></script>
 </body>
 </html>

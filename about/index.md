@@ -3,14 +3,14 @@ layout: page
 title: About
 ---
 
-Noitad Nouf is a [Jekyll][1] theme built with the responsive
+Noita is a [Jekyll][1] theme built with the responsive
 front-end framework [Foundation][2]. The theme is free and fully compatible with [Github Pages][3].
 
 ## Quick Guide
 
 The fastest way is to use Github Pages:
 
-1. Fork the [repository](https://github.com/penibelst/jekyll-noitadnouf).
+1. Fork the [repository](https://github.com/penibelst/jekyll-noita).
 1. Set up your [custom domain](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 1. Start blogging.
 
@@ -23,10 +23,10 @@ Performance tests made with Web Pagetest:
 
 ## Validation
 
-Noitad Nouf creates valid pages:
+Noita creates valid pages:
 
-* [Homepage](http://validator.nu/?doc=http%3A%2F%2Fnoitadnouf.penibelst.de%2F)
-* [Blog post](http://validator.nu/?doc=http%3A%2F%2Fnoitadnouf.penibelst.de%2Fblog%2F2014%2Fi-hate-winter%2F)
+* [Homepage](http://validator.nu/?doc=http%3A%2F%2Fnoita.penibelst.de%2F)
+* [Blog post](http://validator.nu/?doc=http%3A%2F%2Fnoita.penibelst.de%2Fblog%2F2014%2Fi-hate-winter%2F)
 
 ## Screenshots
 
@@ -37,7 +37,7 @@ Screenshots made with Browserstack:
 
 ## Includes
 
-Noitad Nouf contains free libraries:
+Noita contains free libraries:
 
 * [Foundation][2]
 * [jQuery][5]

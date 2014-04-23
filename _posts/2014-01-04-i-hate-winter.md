@@ -15,7 +15,7 @@ The four stages of Morse:
 
 Checking out a new Vietnamese restaurant. I gotta go back to Jasper and Banff next summer. My condolences. I hate winter. You think Istanbul and Lint hurt your feelings? You clearly don’t wear a fitbit. Tells me how out of shape I really am.
 
-You can now download the theme as [zip](https://github.com/penibelst/jekyll-noitadnouf/archive/gh-pages.zip). Thanks to Eric. We’re talking about Jekyll tomorrow in Johannesburg. Please join in the discussion. You’re welcome.
+You can now download the theme as [zip](https://github.com/penibelst/jekyll-noita/archive/gh-pages.zip). Thanks to Eric. We’re talking about Jekyll tomorrow in Johannesburg. Please join in the discussion. You’re welcome.
 
 Working from a coffee shop with two others. View my two latest photos on Flickr. Another sexy layout up for Foundation. This one recreates the side menu used on the site. Go forth and download. Not at all. Sorry dude. Great place! I go there often.
 
