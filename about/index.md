@@ -18,8 +18,8 @@ The fastest way is to use Github Pages:
 
 Performance tests made with Web Pagetest:
 
-* [Mobile](http://www.webpagetest.org/result/140421_RE_MA/)
-* [Desktop](http://www.webpagetest.org/result/140421_WP_KY/)
+* [Mobile](http://www.webpagetest.org/result/140423_C1_110T/)
+* [Desktop](http://www.webpagetest.org/result/140423_DG_10ZB/)
 
 ## Validation
 
