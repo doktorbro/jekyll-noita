@@ -32,8 +32,8 @@ Noita creates valid pages:
 
 Screenshots made with Browserstack:
 
-* [Homepage](http://www.browserstack.com/screenshots/ef015b71fbc13a86d6658a8087faa6788743ca91)
-* [Blog post](http://www.browserstack.com/screenshots/e58d501fcc2eff5d1e6ff6b63dbbdbeadc944b2f)
+* [Homepage](http://www.browserstack.com/screenshots/d62d549fd43ad1e59db8578a430422af962c1429)
+* [Blog post](http://www.browserstack.com/screenshots/1fe88bc368fc7397db7d01d9500782dabecea77d)
 
 ## Includes
 
