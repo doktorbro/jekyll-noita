@@ -1,8 +1,6 @@
 ---
 ---
 
-{% include noita/foundation/css/normalize.css %}
-{% include noita/foundation/css/foundation.min.css %}
 {% for stylesheet in site.noita.stylesheets %}
   {% include stylesheet %}
 {% endfor %}
