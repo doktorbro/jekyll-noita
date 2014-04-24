@@ -20,7 +20,7 @@
 
   <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
   {% for stylesheet in site.noita.stylesheets %}
-    {% include stylesheet %}
+    <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
 </head>
 <body>
@@ -70,6 +70,9 @@
 
   <script src="/noita/jquery/jquery.min.js"></script>
   <script src="/noita/foundation/js/foundation.min.js"></script>
-  <script src="/noita/javascript.js"></script>
+  <script>$(document).foundation();</script>
+  {% for javascript in site.noita.javascripts %}
+    <script src="{{ javascript }}"></script>
+  {% endfor %}
 </body>
 </html>
