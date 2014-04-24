@@ -2,7 +2,6 @@
 ---
 
 {% include noita/foundation/js/vendor/jquery.js %}
-{% include noita/foundation/js/foundation.min.js %}
 
 $(document).foundation();
 
