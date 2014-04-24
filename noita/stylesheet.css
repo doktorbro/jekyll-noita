@@ -1,6 +1,0 @@
----
----
-
-{% for stylesheet in site.noita.stylesheets %}
-  {% include stylesheet %}
-{% endfor %}

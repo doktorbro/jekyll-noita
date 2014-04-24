@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
+
   {% for favicon in site.noita.favicons %}
     {% assign size = favicon | split: '-' | last | split: '.' | first %}
     <link rel="icon"
@@ -13,10 +14,14 @@
       sizes="{{ size }}x{{ size }}"
       href="{{ favicon }}">
   {% endfor %}
+
   <link rel="alternate" href="/blog/feed.atom"
     title="{{ site.noita.title }}" type="application/atom+xml">
+
   <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
-  <link rel="stylesheet" href="/noita/stylesheet.css">
+  {% for stylesheet in site.noita.stylesheets %}
+    {% include stylesheet %}
+  {% endfor %}
 </head>
 <body>
 
