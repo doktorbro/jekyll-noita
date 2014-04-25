@@ -15,16 +15,12 @@ noita:
   topbar:
     toggle: Menu
     right:
-      -
-        name: About
+      - name: About
         url: /about/
-      -
-        name: Guide
+      - name: Guide
         url: /guide/
-      -
-        name: Blog
+      - name: Blog
         url: /blog/
-      -
-        name: Repository
+      - name: Repository
         url: https://github.com/penibelst/jekyll-noita
         class: small button
