@@ -30,20 +30,28 @@
       <li class="name">
         <h1><a href="/">{{ site.noita.title }}</a></h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#topbar">Menu</a></li>
+      <li class="toggle-topbar menu-icon"><a href="#topbar">{{ site.noita.topbar.toggle }}</a></li>
     </ul>
     <div class="top-bar-section">
-    <ul class="right">
-      <li>
-        <a href="/about/">About</a>
-      </li>
-       <li>
-        <a href="/blog/">Blog</a>
-      </li>
-      <li class="has-form">
-        <a class="small button" href="{{ site.noita.repository }}">Repository</a>
-      </li>
-    </ul>
+      {% if site.noita.topbar.left %}
+      <ul class="left">
+      {% for item in site.noita.topbar.left %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if site.noita.topbar.right %}
+      <ul class="right">
+      {% for item in site.noita.topbar.right %}
+        <li{% if item.class %} class="has-form"{% endif %}>
+          <a href="{{ item.url }}" class="{{ item.class }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% endif %}
     </div>
   </div>
 

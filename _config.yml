@@ -13,3 +13,19 @@ noita:
   lang: en
   favicons:
     - /assets/2014/04/21/favicon-152.png
+  topbar:
+    toggle: Menu
+    right:
+      -
+        name: About
+        url: /about/
+      -
+        name: Guide
+        url: /guide/
+      -
+        name: Blog
+        url: /blog/
+      -
+        name: Repository
+        url: https://github.com/penibelst/jekyll-noita
+        class: small button
