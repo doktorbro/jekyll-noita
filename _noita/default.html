@@ -16,7 +16,7 @@
   {% endfor %}
 
   <link rel="alternate" href="/blog/feed.atom"
-    title="{{ site.noita.title }}" type="application/atom+xml">
+    title="{{ site.noita.name }}" type="application/atom+xml">
 
   <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
   {% for stylesheet in site.noita.stylesheets %}
@@ -28,7 +28,7 @@
   <div class="top-bar" data-topbar id="topbar">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/">{{ site.noita.title }}</a></h1>
+        <h1><a href="/">{{ site.noita.name }}</a></h1>
       </li>
       <li class="toggle-topbar menu-icon"><a href="#topbar">{{ site.noita.topbar.toggle }}</a></li>
     </ul>

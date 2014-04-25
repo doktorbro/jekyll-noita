@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.noita.lang }}">
-  <title>{{ site.noita.title }}</title>
+  <title>{{ site.noita.name }}</title>
   <subtitle>{{ site.noita.description }}</subtitle>
 
 {% if site.noita.url %}

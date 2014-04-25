@@ -4,7 +4,7 @@ permalink: /blog/:year/:title/
 layouts: ./_noita
 
 noita:
-  title: Noita
+  name: Noita
   description: Jekyll theme built with Foundation
   author:
     name: Anatol Broder
