@@ -2,6 +2,7 @@
 title: "I Hate Winter"
 layout: post
 description: "You think Istanbul and Lint hurt your feelings? You clearly don’t wear a fitbit. Tells me how out of shape I really am."
+robots: none
 ---
 
 I was in the rear-most seat on my flight to LAX and it was one of those planes where the engine is on the tail. Eardrum has had better days. Great weather as always. And now I’m off to Iceland! Just dropping parents off. Why didn’t you stop me, you tool? I remember very little about it.

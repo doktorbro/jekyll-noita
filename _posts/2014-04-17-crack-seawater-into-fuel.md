@@ -2,6 +2,7 @@
 title: "Crack Seawater Into Fuel"
 layout: post
 description: "The loader is more shady than a palm tree on a beach. I’m mad scared of South Africa."
+robots: none
 ---
 
 You gotta open with Hussey or come down. [The Emerging Global Web][1] presentation is eye-opening. Uh, the Navy found a way to affordably crack seawater into fuel? This seems like “a big deal”. In all seriousness though, the stuff sounds awesome. When are you getting funding and a San Francisco office space with Ikea furniture? I’m a Core Data newbie. What’s the best way for me to pick it up in your opinion?
