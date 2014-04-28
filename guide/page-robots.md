@@ -1,7 +1,7 @@
 ---
 title: page.robots
 layout: page
-permalink: /page.robots/
+permalink: /page-robots/
 ---
 
 Adds a robots meta tag to the page. Read [Google Webmasters][0] for available directives.
