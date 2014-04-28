@@ -18,7 +18,7 @@ The Noita Theme options must be specified in the variable `noita` in the global 
 ### Page Options Reference
 
 <ul>
-{% for p in site.pages | sort: title %}
+{% for p in site.pages | sort: 'title' %}
   {% if p.title contains 'page.' %}
 <li><a href="{{ p.url }}">{{ p.title | remove: 'page.' }}</a></li>
   {% endif %}
