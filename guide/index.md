@@ -17,11 +17,13 @@ The Noita Theme options must be specified in the variable `noita` in the global 
 
 ### Page Options Reference
 
+<ul>
 {% for p in site.pages | sort: title %}
   {% if p.title contains 'page.' %}
-* [{{ p.title | remove: 'page.' }}]({{ p.url }})
+<li><a href="{{ p.url }}">{{ p.title | remove: 'page.' }}</a></li>
   {% endif %}
 {% endfor %}
+</ul>
 
 [0]: https://github.com/penibelst/jekyll-noita
 [1]: https://help.github.com/articles/setting-up-a-custom-domain-with-pages
