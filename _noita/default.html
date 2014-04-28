@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   {% include noita/robots.html %}
+  {% include noita/meta-description.html %}
 
   {% for favicon in site.noita.favicons %}
     {% assign size = favicon | split: '-' | last | split: '.' | first %}
