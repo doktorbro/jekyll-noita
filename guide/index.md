@@ -13,7 +13,7 @@ The fastest way is to use Github Pages:
 
 ## Configuration
 
-The Noita Theme options must be specified in the variable `noita` in the global [configuration][2] file. Page-level options can be in the [front matter][3].
+The Noita Theme options must be specified in the variable `noita` in the global [configuration][2] file. Page-level options can be set in the [front matter][3].
 
 ### Page Options Reference
 
