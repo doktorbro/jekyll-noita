@@ -1,5 +1,5 @@
 ---
-title: page.robots
+title: page.class
 layout: page
 ---
 

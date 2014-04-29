@@ -1,7 +1,6 @@
 ---
 title: page.description
 layout: page
-permalink: /page-description/
 ---
 
 Adds a description meta tag to the page. In posts the description is shown between the title and the body.
