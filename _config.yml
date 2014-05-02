@@ -1,6 +1,12 @@
 markdown: kramdown
 permalink: /blog/:year/:title/
 relative_permalinks: true
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE
+  - Rakefile
+  - README.md
 
 layouts: ./_noita
 
