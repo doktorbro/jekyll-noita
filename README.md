@@ -9,14 +9,16 @@
 [2]: http://jekyllrb.com/
 [3]: http://foundation.zurb.com/
 
-Installation Instructions
+## Installation Instructions
 
-Foundation is a submodule of this project so if you want to install jekyll-noita on your local machine follow these steps.
+Foundation is a submodule of this project so if you want to install `jekyll-noita` on your local machine follow these steps.
 
-1) git clone this repo.
-2) cd jekyll-noita
-3) git submodule init
-4) git submodule update
-5) jekyll serve
+```bash
+git clone git@github.com:penibelst/jekyll-noita.git
+cd jekyll-noita
+git submodule init
+git submodule update
+jekyll serve
+```
 
-You will find your blog at http://0.0.0.0:4000/
+You will find your blog at `http://0.0.0.0:4000/`
