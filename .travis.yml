@@ -8,6 +8,7 @@ before_install:
 script:
   - "wget -O vnu.zip https://github.com/validator/validator.github.io/releases/download/20140222/vnu-20140222.zip"
   - "unzip vnu.zip"
+  - "java -jar ./vnu/vnu.jar index.html"
 
 notifications:
   email: false
