@@ -6,7 +6,7 @@ before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 script:
-  - 'bundle exec rake test'
+  - "wget https://github.com/validator/validator.github.io/releases/download/20140222/vnu-20140222.zip"
 
 notifications:
   email: false
