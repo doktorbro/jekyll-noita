@@ -1,0 +1,9 @@
+module.exports = function(grunt) {
+  grunt.initConfig({
+    htmllint: {
+        all: ["index.html", "_noita/*.html"]
+    }
+  });
+  grunt.loadNpmTasks('grunt-html');
+  grunt.registerTask('test', ['grunt-html']);
+};

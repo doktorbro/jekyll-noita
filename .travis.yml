@@ -5,8 +5,15 @@ rvm:
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+install:
+  - npm install grunt-html --save-dev
+
 script:
-  - 'bundle exec rake test'
+  - npm test
+  #- "wget -O vnu.zip https://github.com/validator/validator.github.io/releases/download/20140222/vnu-20140222.zip"
+  #- "unzip vnu.zip"
+  #- "java -jar ./vnu/vnu.jar index.html"
+  #- "java -jar ./vnu/vnu.jar _noita/"
 
 notifications:
   email: false
