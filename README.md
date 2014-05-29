@@ -1,16 +1,9 @@
-[Noita][1]
+[Noita][demo]
 ==================
 
 [![Build Status][ci-badge]][ci]
 
-[ci]: https://travis-ci.org/penibelst/jekyll-noita
-[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
-
-[Jekyll][2] theme built with [Foundation][3]. Check out the [demo site][1] with description and tests.
-
-[1]: http://noita.penibelst.de/
-[2]: http://jekyllrb.com/
-[3]: http://foundation.zurb.com/
+[Jekyll][jekyll] theme built with [Foundation][foundation]. Check out the [demo site][demo] with description and tests.
 
 ## Installation Instructions
 
@@ -25,3 +18,9 @@ jekyll serve
 ```
 
 You will find your blog at `http://0.0.0.0:4000/`
+
+[ci]: https://travis-ci.org/penibelst/jekyll-noita
+[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
+[demo]: http://noita.penibelst.de/
+[foundation]: http://foundation.zurb.com/
+[jekyll]: http://jekyllrb.com/
