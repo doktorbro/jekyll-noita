@@ -5,8 +5,10 @@ exclude:
   - CNAME
   - Gemfile
   - LICENSE
+  - node_modules/
   - Rakefile
   - README.md
+  - vendor/
 
 layouts: ./_noita
 
