@@ -20,7 +20,8 @@
   <link rel="alternate" href="/blog/feed.atom"
     title="{{ site.noita.name }}" type="application/atom+xml">
 
-  <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
+  <link rel="stylesheet" href="/noita/foundation/css/normalize.css">
+  <link rel="stylesheet" href="/noita/foundation/css/foundation.css">
   {% for stylesheet in site.noita.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
@@ -78,7 +79,7 @@
     </div>
   </div>
 
-  <script src="/noita/jquery/jquery.min.js"></script>
+  <script src="/noita/foundation/js/vendor/jquery.js"></script>
   <script src="/noita/foundation/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
   {% for javascript in site.noita.javascripts %}
