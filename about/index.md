@@ -23,10 +23,13 @@ Performance tests made with Web Pagetest:
 
 ## Validation
 
-Noita creates valid pages:
+[![Build Status][ci-badge]][ci]
 
-* [Homepage](http://validator.nu/?doc=http%3A%2F%2Fnoita.penibelst.de%2F)
-* [Blog post](http://validator.nu/?doc=http%3A%2F%2Fnoita.penibelst.de%2Fblog%2F2014%2Fi-hate-winter%2F)
+Noita creates pages with valid:
+
+* markup;
+* internal and external links;
+* image references.
 
 ## Screenshots
 
@@ -48,3 +51,5 @@ Noita contains free libraries:
 [3]: https://pages.github.com/
 [4]: http://necolas.github.io/normalize.css/
 [5]: http://jquery.com/
+[ci]: https://travis-ci.org/penibelst/jekyll-noita
+[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
