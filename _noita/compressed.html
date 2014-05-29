@@ -1,0 +1,1 @@
+{% unless content contains '<pre' %}{% assign content = content | split: ' ' | join: ' ' | replace: ' <div', '<div' | replace: ' </div', '</div' %}{% endunless %}{{ content }}
