@@ -1,7 +1,10 @@
 [Noita][1]
 ==================
 
-[![Build Status](https://travis-ci.org/penibelst/jekyll-noita.svg)](https://travis-ci.org/penibelst/jekyll-noita)
+[![Build Status][ci-badge]][ci]
+
+[ci]: https://travis-ci.org/penibelst/jekyll-noita
+[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
 
 [Jekyll][2] theme built with [Foundation][3]. Check out the [demo site][1] with description and tests.
 
