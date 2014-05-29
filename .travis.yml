@@ -4,9 +4,16 @@ rvm:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - npm install -g grunt-cli
+
+install:
+  - bundle install
+  - npm install grunt grunt-html --save-dev
 
 script:
-  - 'bundle exec rake test'
+  - bundle exec jekyll build --drafts
+  - grunt test
+  - bundle exec htmlproof ./_site
 
 notifications:
   email: false
