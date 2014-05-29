@@ -3,26 +3,26 @@ layout: page
 title: About
 ---
 
-Noita is a [Jekyll][jekyll] theme built with the responsive front-end framework [Foundation][foundation]. The theme is free and fully compatible with [Github Pages][gh-pages].
+Noita is a [Jekyll][0] theme built with the responsive front-end framework [Foundation][1]. The theme is free and fully compatible with [Github Pages][2].
 
 ## Quick Guide
 
 The fastest way is to use Github Pages:
 
-1. Fork the [repository][repository].
-1. Set up your [custom domain][gh-domain].
+1. Fork the [repository][3].
+1. Set up your [custom domain][4].
 1. Start blogging.
 
 ## Performance
 
 Performance tests made with Web Pagetest:
 
-* [Mobile][perf-mobile]
-* [Desktop][perf-desktop]
+* [Mobile][5]
+* [Desktop][6]
 
 ## Validation
 
-[![Build Status][ci-badge]][ci]
+[![Build Status][7]][8]
 
 Noita creates pages with valid:
 
@@ -34,18 +34,18 @@ Noita creates pages with valid:
 
 Noita contains free libraries:
 
-* [Foundation][foundation]
-* [jQuery][jquery]
-* [Normalize][normalize]
+* [Foundation][1]
+* [jQuery][9]
+* [Normalize][10]
 
-[ci]: https://travis-ci.org/penibelst/jekyll-noita
-[ci-badge]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
-[foundation]: http://foundation.zurb.com/
-[gh-domain]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
-[gh-pages]: https://pages.github.com/
-[jekyll]: http://jekyllrb.com/
-[jquery]: http://jquery.com/
-[normalize]: http://necolas.github.io/normalize.css/
-[perf-mobile]: http://www.webpagetest.org/result/140424_2T_15NB/
-[perf-desktop]: http://www.webpagetest.org/result/140424_RR_15PQ/
-[repository]: https://github.com/penibelst/jekyll-noita
+[0]: http://jekyllrb.com/
+[1]: http://foundation.zurb.com/
+[2]: https://pages.github.com/
+[3]: https://github.com/penibelst/jekyll-noita
+[4]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
+[5]: http://www.webpagetest.org/result/140424_2T_15NB/
+[6]: http://www.webpagetest.org/result/140424_RR_15PQ/
+[7]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
+[8]: https://travis-ci.org/penibelst/jekyll-noita
+[9]: http://jquery.com/
+[10]: http://necolas.github.io/normalize.css/
