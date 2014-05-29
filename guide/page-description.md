@@ -12,7 +12,7 @@ Adds a description meta tag to the page. In posts the description is shown betwe
 
 ## Example
 
-~~~ yaml
+~~~yaml
 ---
 description: This was no new arrangement, but a thing that had befallen many scores of times. Where Utterson was liked, he was liked well.
 ---

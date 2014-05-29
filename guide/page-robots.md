@@ -14,7 +14,7 @@ Adds a robots meta tag to the page. Read [Google Webmasters][0] for available di
 
 Instruct web crawlers to not index the page and to not crawl any of the links on the page:
 
-~~~ yaml
+~~~yaml
 ---
 robots:
   - noindex
