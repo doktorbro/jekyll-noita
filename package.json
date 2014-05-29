@@ -1,0 +1,13 @@
+{
+  "author": "",
+  "name": "",
+  "version": "",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "",
+    "grunt-html": ""
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
