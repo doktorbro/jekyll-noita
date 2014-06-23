@@ -17,8 +17,8 @@ The fastest way is to use Github Pages:
 
 Performance tests made with Web Pagetest:
 
-* [Mobile][5]
-* [Desktop][6]
+* [Mobile][mobile]
+* [Desktop][desktop]
 
 ## Validation
 
@@ -43,8 +43,8 @@ Noita contains free libraries:
 [2]: https://pages.github.com/
 [3]: https://github.com/penibelst/jekyll-noita
 [4]: https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
-[5]: http://www.webpagetest.org/result/140623_6V_637/
-[6]: http://www.webpagetest.org/result/140623_MF_61Y/
+[mobile]: http://www.webpagetest.org/result/140623_S6_SEB/
+[desktop]: http://www.webpagetest.org/result/140623_WV_SH4/
 [7]: https://travis-ci.org/penibelst/jekyll-noita.svg?branch=gh-pages
 [8]: https://travis-ci.org/penibelst/jekyll-noita
 [9]: http://jquery.com/
