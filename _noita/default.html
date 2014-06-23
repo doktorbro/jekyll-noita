@@ -86,8 +86,10 @@ layout: compressed
   </div>
 
   <script src="/noita/foundation/js/vendor/jquery.js"></script>
+  <script src="/noita/foundation/js/vendor/fastclick.js"></script>
   <script src="/noita/foundation/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
+  
   {% for javascript in site.noita.javascripts %}
     <script src="{{ javascript }}"></script>
   {% endfor %}
