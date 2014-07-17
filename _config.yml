@@ -15,11 +15,11 @@ exclude:
 layouts: ./_noita
 
 noita:
-  name: Noita
-  description: Jekyll theme built with Foundation
+  name: Getpantheon documentation
+  description: "Guides, tutorials and platform best practices"
   author:
-    name: Anatol Broder
-    url: http://penibelst.de/
+    name: Pantheon
+    url: https://www.getpantheon.com/
   lang: en
   favicons:
     - /assets/2014/04/21/favicon-152.png
