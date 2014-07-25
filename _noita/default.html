@@ -25,7 +25,7 @@ layout: compress
     title="{{ site.noita.name }}" type="application/atom+xml">
 
   <link rel="stylesheet" href="/noita/foundation/css/normalize.css">
-  <link rel="stylesheet" href="/noita/foundation/css/foundation.css">
+  <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
   {% for stylesheet in site.noita.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
@@ -89,7 +89,7 @@ layout: compress
   <script src="/noita/foundation/js/vendor/fastclick.js"></script>
   <script src="/noita/foundation/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
-  
+
   {% for javascript in site.noita.javascripts %}
     <script src="{{ javascript }}"></script>
   {% endfor %}
