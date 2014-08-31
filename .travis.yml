@@ -1,18 +1,18 @@
 language: ruby
 rvm:
   - 2.1
-
-before_install:
-  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - npm install -g grunt-cli
-
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 install:
   - bundle install
-  - npm install grunt grunt-html --save-dev
+  # validator
+  - wget -O _vnu.zip https://github.com/validator/validator.github.io/releases/download/20140825/vnu-20140825.jar.zip
+  - unzip _vnu.zip
 
 script:
   - bundle exec jekyll build --drafts
-  - grunt test
+  - java -jar ./_vnu/vnu.jar ./_site
   - bundle exec htmlproof ./_site
 
 notifications:

@@ -4,10 +4,7 @@ relative_permalinks: true
 exclude:
   - CNAME
   - Gemfile
-  - Gruntfile.js
   - LICENSE
-  - node_modules/
-  - package.json
   - Rakefile
   - README.md
   - vendor/
