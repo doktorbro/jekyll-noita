@@ -7,12 +7,13 @@ env:
 install:
   - bundle install
   # validator
-  - wget -O _vnu.zip https://github.com/validator/validator.github.io/releases/download/20140825/vnu-20140825.jar.zip
-  - unzip _vnu.zip
+  - wget -O vnu.zip https://github.com/validator/validator.github.io/releases/download/20140825/vnu-20140825.jar.zip
+  - unzip vnu.zip vnu/vnu.jar -d _vnu
+  - rm vnu.zip
 
 script:
   - bundle exec jekyll build --drafts
-  - java -jar ./_vnu/vnu.jar ./_site
+  - java -jar ./_vnu/vnu/vnu.jar ./_site
   - bundle exec htmlproof ./_site
 
 notifications:
