@@ -1,13 +1,34 @@
-require 'rake'
+require "rake"
 
-desc 'Preview the site with Jekyll'
-task :preview do
-  sh 'bundle exec jekyll serve --watch --drafts'
+task :submodule do
+  `git submodule init`
+  `git submodule update`
 end
 
-desc 'Test the site with Proofer'
-task :test do
-  require 'html/proofer'
-  sh 'bundle exec jekyll build --trace'
-  HTML::Proofer.new('./_site').run
+desc "Preview the site with Jekyll"
+task :preview do
+  sh "bundle exec jekyll serve --watch --drafts"
+end
+
+BUILD_DIR = "_site"
+file BUILD_DIR => :submodule do
+  sh "bundle exec jekyll build --drafts"
+end
+
+task :test => [:validate, :proof]
+
+desc "Test the site with Proofer"
+task :proof => BUILD_DIR do
+  require "html/proofer"
+  HTML::Proofer.new(BUILD_DIR).run
+end
+
+VALIDATOR = "vnu/vnu.jar"
+file VALIDATOR do |f|
+  sh "wget -O vnu.zip https://github.com/validator/validator/releases/download/20141006/vnu-20141013.jar.zip"
+  sh "unzip vnu.zip #{f.name}"
+end
+
+task :validate => [BUILD_DIR, VALIDATOR] do
+  sh "java -jar #{File.join(".", VALIDATOR)} #{BUILD_DIR}"
 end
