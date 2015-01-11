@@ -6,7 +6,7 @@ task :submodule do
 end
 
 desc "Preview the site with Jekyll"
-task :preview do
+task :preview => :submodule do
   sh "bundle exec jekyll serve --watch --drafts"
 end
 
