@@ -1,5 +1,7 @@
 require "rake"
 
+task :default => :test
+
 task :submodule do
   `git submodule init`
   `git submodule update`
