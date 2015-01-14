@@ -24,13 +24,8 @@ layout: compress
   <link rel="alternate" href="/blog/feed.atom"
     title="{{ site.noita.name }}" type="application/atom+xml">
 
-  <link rel="stylesheet" href="/noita/foundation/css/normalize.css">
-  <link rel="stylesheet" href="/noita/foundation/css/foundation.min.css">
-  {% for stylesheet in site.noita.stylesheets %}
-    <link rel="stylesheet" href="{{ stylesheet }}">
-  {% endfor %}
-
-  <script src="/noita/foundation/js/vendor/modernizr.js"></script>
+  <link rel="stylesheet" href="/noita/app.css">
+  <script src="/noita/js/vendor/modernizr.js"></script>
 </head>
 <body>
 
@@ -77,7 +72,7 @@ layout: compress
       <hr>
     </div>
     <div class="small-8 columns">
-      <p>© 2014 <a href="http://penibelst.de/">Anatol Broder</a>. Licensed under
+      <p>© 2014–2015 <a href="http://penibelst.de/">Anatol Broder</a>. Released under
       the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
     </div>
     <div class="small-4 columns">
@@ -85,13 +80,9 @@ layout: compress
     </div>
   </div>
 
-  <script src="/noita/foundation/js/vendor/jquery.js"></script>
-  <script src="/noita/foundation/js/vendor/fastclick.js"></script>
-  <script src="/noita/foundation/js/foundation.min.js"></script>
+  <script src="/noita/js/vendor/jquery.js"></script>
+  <script src="/noita/js/vendor/fastclick.js"></script>
+  <script src="/noita/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
-
-  {% for javascript in site.noita.javascripts %}
-    <script src="{{ javascript }}"></script>
-  {% endfor %}
 </body>
 </html>

@@ -1,3 +1,4 @@
+# build
 markdown: kramdown
 permalink: /blog/:year/:title/
 relative_permalinks: true
@@ -10,9 +11,18 @@ exclude:
   - vendor/
   - vnu/
   - vnu.zip
-
 layouts: ./_noita
-
+sass:
+  sass_dir: noita/_scss
+  style: compressed
+# compress layout in _noita/compress.html
+compress_html:
+  clippings: all
+  endings: all
+  comments: ["<!--", "-->"]
+  ignore:
+    envs: [travis]
+# theme
 noita:
   name: Noita
   description: Jekyll theme built with Foundation
@@ -34,10 +44,3 @@ noita:
       - name: Repository
         url: https://github.com/penibelst/jekyll-noita
         class: small button
-
-compress_html:
-  clippings: all
-  endings: all
-  comments: ["<!--", "-->"]
-  ignore:
-    envs: [travis]

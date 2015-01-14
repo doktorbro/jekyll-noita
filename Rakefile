@@ -2,18 +2,13 @@ require "rake"
 
 task :default => :test
 
-task :submodule do
-  `git submodule init`
-  `git submodule update`
-end
-
 desc "Preview the site with Jekyll"
-task :preview => :submodule do
+task :preview do
   sh "bundle exec jekyll serve --watch --drafts"
 end
 
 BUILD_DIR = "_site"
-file BUILD_DIR => :submodule do
+file BUILD_DIR do
   sh "bundle exec jekyll build --drafts"
 end
 
